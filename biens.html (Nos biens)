@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nos Biens - South Ouest Immo</title>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    // Toggle between sections for Acheter and Louer
+    function showSection(section) {
+      document.getElementById('acheter').style.display = 'none';
+      document.getElementById('louer').style.display = 'none';
+      document.getElementById(section).style.display = 'block';
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="biens.html">Nos biens</a>
+      <a href="honoraires.html">Nos Honoraires</a>
+      <a href="references.html">References</a>
+      <a href="contact.html">Nous Contacter</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Nos Biens</h1>
+    <div>
+      <button class="button" onclick="showSection('acheter')">Acheter</button>
+      <button class="button" onclick="showSection('louer')">Louer</button>
+    </div>
+    <div id="acheter" style="display: block; margin-top: 20px;">
+      <h2>Biens à Acheter</h2>
+      <p>Liste des biens disponibles à l'achat.</p>
+    </div>
+    <div id="louer" style="display: none; margin-top: 20px;">
+      <h2>Biens à Louer</h2>
+      <p>Liste des biens disponibles à la location.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 South Ouest Immo</p>
+  </footer>
+</body>
+</html>
