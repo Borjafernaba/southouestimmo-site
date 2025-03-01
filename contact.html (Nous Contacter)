@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nous Contacter - South Ouest Immo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="biens.html">Nos biens</a>
+      <a href="honoraires.html">Nos Honoraires</a>
+      <a href="references.html">References</a>
+      <a href="contact.html">Nous Contacter</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Nous Contacter</h1>
+    <form action="#" method="post">
+      <label for="prenom">Prénom</label>
+      <input type="text" id="prenom" name="prenom" required>
+      
+      <label for="nom">Nom de Famille</label>
+      <input type="text" id="nom" name="nom" required>
+      
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="telephone">Téléphone</label>
+      <input type="tel" id="telephone" name="telephone" required>
+      
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      
+      <label>
+        <input type="checkbox" name="confidentialite" required>
+        J'ai lu et j'accepte la politique de confidentialité de ce site
+      </label>
+      
+      <br><br>
+      <button type="submit" class="button">ENVOYER</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 South Ouest Immo</p>
+  </footer>
+</body>
+</html>
