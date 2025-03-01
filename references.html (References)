@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>References - South Ouest Immo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="biens.html">Nos biens</a>
+      <a href="honoraires.html">Nos Honoraires</a>
+      <a href="references.html">References</a>
+      <a href="contact.html">Nous Contacter</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>References</h1>
+    <p>Découvrez nos références et témoignages de clients satisfaits.</p>
+    <!-- You can add client testimonials or a portfolio section here -->
+  </div>
+
+  <footer>
+    <p>&copy; 2025 South Ouest Immo</p>
+  </footer>
+</body>
+</html>
