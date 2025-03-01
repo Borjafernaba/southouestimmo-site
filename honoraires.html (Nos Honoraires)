@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nos Honoraires - South Ouest Immo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="biens.html">Nos biens</a>
+      <a href="honoraires.html">Nos Honoraires</a>
+      <a href="references.html">References</a>
+      <a href="contact.html">Nous Contacter</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Nos Honoraires</h1>
+    <p>Informations sur nos honoraires et tarifs.</p>
+    <!-- Add more details or a pricing table if needed -->
+  </div>
+
+  <footer>
+    <p>&copy; 2025 South Ouest Immo</p>
+  </footer>
+</body>
+</html>
